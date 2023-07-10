@@ -153,6 +153,13 @@ button {
     height: 100px;
     width: 100px;
     padding-top: 80px;
+    
+}
+.icon-call{
+    height: 50px;
+    width: 50px;
+    
+    
 }
 .box-description{
     font-size: 24px;
@@ -184,9 +191,49 @@ button {
     margin: 20px;
     
 }
-.author-container{
-   
+.phone-call{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 60px;
 
 }
+.appointment-container{
+    background-color: red;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    padding: 40px;
+    margin-top: -30px;
+}
+.appointment-desc{
+    font-size: 18px;
+    color: white;
+}
+.font-new{
+    font-size: 12px;
+}
+.font-new2{
+    font-size: 40px;
+}
+.btn-new-1{
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 15px;
+    margin-right: 20px;
+    border-right: 2px solid red;
 
-
+}
+.btn-new-1:hover {
+    background-color: black;
+    color: white;
+}
